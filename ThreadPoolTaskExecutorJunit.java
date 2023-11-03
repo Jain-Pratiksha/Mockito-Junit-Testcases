@@ -15,5 +15,5 @@
 private ThreadPoolTaskExecutor ThreadPoolTaskExecutor;
 
 ThreadPoolTaskExecutor executor = getThreadPoolTaskExecutor();
-        when(ThreadPoolTaskExecutor.getThreadPoolExecutor())
-                .thenReturn(executor.getThreadPoolExecutor());
+when(ThreadPoolTaskExecutor.getThreadPoolExecutor())
+        .thenReturn(executor.getThreadPoolExecutor());
